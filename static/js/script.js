@@ -31,3 +31,4 @@ function rpsGame(yourChoice) {
     results = decideWinner(humanChoice, botChoice);
     message = finalMessage(results);
 }
+// Test it out

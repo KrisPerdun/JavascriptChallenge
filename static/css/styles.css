@@ -9,7 +9,7 @@
 .flex-box-container-1, .flex-box-container-2, .flex-box-rps {
     display: flex;
     border: 1px solid black;
-    padding: 10px;
+    padding: 11px;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
