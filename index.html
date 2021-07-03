@@ -8,17 +8,48 @@
     <title>Javascript Challenge</title>
 </head>
 <body>
-    <div class="container-1"></div>
+    <!-- Div for Your Age In Days -->
+    <div class="container-1">
         <h2>Challenge 1: Your Age in Days</h2>
-        <div class="flex-box-container-1"></div>
+        <div class="flex-box-container-1">
             <div>
-                <button class="btn btn-primary">Click Me</button>
+                <button class="btn btn-primary" onclick="ageInDays()">Click Me</button>
             </div>
 
             <div>
-                <button class="btn btn-danger">Reset</button>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
             </div>
+        </div>
 
+        <div class="flex-box-container-1">
+            <div id="flex-box-results"></div>
+        </div>
+    </div>
+
+    <!-- Div for Generate Cats -->
+    <div class="container-2">
+        <h2>Challenge 2: Cat Generator</h2>
+        <div class="flex-box-container-2">
+            <div>
+                <button class="btn btn-success" id="cat-generator" onclick="generateCat()">Generate Cat</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-2" id="flex-cat-gen">
+        </div>
+    </div>
+
+    <!-- Div for Rock Paper Scissors -->
+    <div class="container-3">
+        <h2>Challenge 3: Rock, Paper, Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="static/images/rock.png" height=150 width=150 alt="rock" onclick="rpsGame(this)">
+            <img id="paper" src="static/images/paper.png" height=150 width=150 alt="paper" onclick="rpsGame(this)">
+            <img id="scissors" src="static/images/scissors02.png" height=150 width=150 alt="scissors" onclick="rpsGame(this)">
+        </div>
+        
+    </div>
+    
     <script src="static/js/script.js"></script>
 </body>
 </html>
